@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polvonov Muhammadyoqub — Portfolio</title>
+  <meta name="description" content="Polvonov Muhammadyoqub — yosh startupper">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap&subset=latin,cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">MP</a>
+    <nav aria-label="Menu">
+      <a href="#about" data-i18n="nav_about">Men haqimda</a>
+      <a href="#skills" data-i18n="nav_skills">Ko'nikmalar</a>
+      <a href="#projects" data-i18n="nav_projects">Loyihalar</a>
+      <a href="#achievements" data-i18n="nav_ach">Yutuqlar</a>
+      <a href="#certificates" data-i18n="nav_cert">Sertifikatlar</a>
+      <a href="#volunteering" data-i18n="nav_vol">Volontyorlik</a>
+      <a href="#contact" data-i18n="nav_contact">Aloqa</a>
+    </nav>
+    <div class="tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="uz">UZ</button>
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="Dark mode">◐</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 1. HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="role" data-i18n="hero_role">Loyiha koordinatori va yosh dasturchi</p>
+        <h1>Polvonov<br>Muhammadyoqub</h1>
+        <p class="slogan" data-i18n="hero_slogan">G'oyalarni jamoa bilan birga haqiqiy natijaga aylantiraman.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-i18n="hero_btn1">Loyihalarni ko'rish</a>
+          <a class="btn btn-ghost" href="#contact" data-i18n="hero_btn2">Bog'lanish</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="photo_2026-10-14_15-43-19.jpg" alt="Polvonov Muhammadyoqub" width="800" height="800">
+      </div>
+    </section>
+
+    <!-- 2. MEN HAQIMDA -->
+    <section id="about" class="section">
+      <h2 data-i18n="about_title">Men haqimda</h2>
+      <div class="about-text">
+        <p data-i18n="about_1"></p>
+        <p data-i18n="about_2"></p>
+        <p data-i18n="about_3"></p>
+        <p data-i18n="about_4"></p>
+      </div>
+    </section>
+
+    <!-- 3. KO'NIKMALAR -->
+    <section id="skills" class="section">
+      <h2 data-i18n="skills_title">Ko'nikmalar</h2>
+      <h3 class="group" data-i18n="skills_group1">Loyiha boshqaruvi</h3>
+      <ul class="chips">
+        <li data-i18n="sk_pr"></li>
+        <li data-i18n="sk_team"></li>
+        <li data-i18n="sk_time"></li>
+        <li data-i18n="sk_lead"></li>
+        <li data-i18n="sk_comm"></li>
+        <li data-i18n="sk_crit"></li>
+      </ul>
+      <h3 class="group" data-i18n="skills_group2">Texnik</h3>
+      <ul class="chips">
+        <li data-i18n="sk_code"></li>
+      </ul>
+    </section>
+
+    <!-- 4. LOYIHALAR -->
+    <section id="projects" class="section">
+      <h2 data-i18n="projects_title">Loyihalar</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/project-1.jpg" alt="Financopedia" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Financopedia</h3>
+            <p data-i18n="pr1_desc"></p>
+            <a class="card-link" href="https://t.me/mupolvonov" target="_blank" rel="noopener" data-i18n="pr_more">Batafsil</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project-2.jpg" alt="Oltin Qanot" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Oltin Qanot</h3>
+            <p data-i18n="pr2_desc"></p>
+            <a class="card-link" href="https://t.me/mupolvonov" target="_blank" rel="noopener" data-i18n="pr_more">Batafsil</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project-3.jpg" alt="Xorazm ekologiya kengashi" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3 data-i18n="pr3_title"></h3>
+            <p data-i18n="pr3_desc"></p>
+            <a class="card-link" href="https://t.me/mupolvonov" target="_blank" rel="noopener" data-i18n="pr_more">Batafsil</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. TA'LIM VA YUTUQLAR -->
+    <section id="achievements" class="section">
+      <h2 data-i18n="ach_title">Ta'lim va yutuqlar</h2>
+      <ul class="achievements">
+        <li><h3 data-i18n="a1_t"></h3><p data-i18n="a1_d"></p></li>
+        <li><h3 data-i18n="a2_t"></h3><p data-i18n="a2_d"></p></li>
+        <li><h3 data-i18n="a3_t"></h3><p data-i18n="a3_d"></p></li>
+        <li><h3 data-i18n="a4_t"></h3><p data-i18n="a4_d"></p></li>
+        <li><h3 data-i18n="a5_t"></h3><p data-i18n="a5_d"></p></li>
+        <li><h3 data-i18n="a6_t"></h3><p data-i18n="a6_d"></p></li>
+        <li><h3 data-i18n="a7_t"></h3><p data-i18n="a7_d"></p></li>
+      </ul>
+    </section>
+
+    <!-- SERTIFIKATLAR: rasmlarni images/certificates/ papkasiga cert-1.jpg ... nomi bilan qo'ying -->
+    <section id="certificates" class="section">
+      <h2 data-i18n="cert_title">Sertifikatlar</h2>
+      <div class="gallery">
+        <figure><img src="images/certificates/cert-1.jpg" alt="Sertifikat 1" loading="lazy"></figure>
+        <figure><img src="images/certificates/cert-2.jpg" alt="Sertifikat 2" loading="lazy"></figure>
+        <figure><img src="images/certificates/cert-3.jpg" alt="Sertifikat 3" loading="lazy"></figure>
+        <figure><img src="images/certificates/cert-4.jpg" alt="Sertifikat 4" loading="lazy"></figure>
+        <figure><img src="images/certificates/cert-5.jpg" alt="Sertifikat 5" loading="lazy"></figure>
+        <figure><img src="images/certificates/cert-6.jpg" alt="Sertifikat 6" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- VOLONTYORLIK: rasmlarni images/volunteering/ papkasiga vol-1.jpg ... nomi bilan qo'ying -->
+    <section id="volunteering" class="section">
+      <h2 data-i18n="vol_title">Volontyorlik</h2>
+      <div class="gallery">
+        <figure><img src="images/volunteering/vol-1.jpg" alt="Volontyorlik 1" loading="lazy"></figure>
+        <figure><img src="images/volunteering/vol-2.jpg" alt="Volontyorlik 2" loading="lazy"></figure>
+        <figure><img src="images/volunteering/vol-3.jpg" alt="Volontyorlik 3" loading="lazy"></figure>
+        <figure><img src="images/volunteering/vol-4.jpg" alt="Volontyorlik 4" loading="lazy"></figure>
+        <figure><img src="images/volunteering/vol-5.jpg" alt="Volontyorlik 5" loading="lazy"></figure>
+        <figure><img src="images/volunteering/vol-6.jpg" alt="Volontyorlik 6" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- 6. ALOQA -->
+    <section id="contact" class="section">
+      <h2 data-i18n="contact_title">Aloqa</h2>
+      <p class="contact-lead" data-i18n="contact_lead"></p>
+      <ul class="contacts">
+        <li><a href="tel:+998921985099">+998 92 198 50 99</a></li>
+        <li><a href="mailto:polvonovmuhammadyoqub@gmail.com">polvonovmuhammadyoqub@gmail.com</a></li>
+        <li><a href="https://t.me/mupolvonov" target="_blank" rel="noopener">Telegram: @mupolvonov</a></li>
+      </ul>
+      <a class="btn btn-primary cv" href="https://canva.link/ojk53qsaoj9huzg" target="_blank" rel="noopener" data-i18n="cv_btn">CV'ni ko'rish</a>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year">2026</span> Polvonov Muhammadyoqub</footer>
+  <script src="js/translations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
